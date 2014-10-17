@@ -8,12 +8,10 @@ html {
 a:link {
 	color: #828E8C;
 	text-decoration: none;
-	
 }
 
 a:hover {
 	color: #C5D0C1;
-	
 }
 
 a:visited {
@@ -66,7 +64,7 @@ hr {
 }
 
 td {
-	width: 25%;
+	width: 20%;
 	
 }
 
