@@ -1,5 +1,4 @@
 html {
-	font-family: Cambria;
 	font-size: 1.5em;
 	background-color: #F8ECDE;
 	color: #494546;
@@ -25,9 +24,12 @@ a:visited {
 	border: 4px dashed #C5D0C1;
 	border-radius: 10px;
 	width: 80%;
-	height: 80px;
+	height: 100px;
 	text-align: center;
 	margin-left: 10%;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	/*font-family: Georgia;*/
+	font-size: 1.25em;
 }
 
 #content {
@@ -42,6 +44,7 @@ a:visited {
 	  font-size: 16px;
 	  margin-top: 1%;
 	  color: 494546;
+	  font-family: Cambria;
 }
 
 hr {
@@ -52,7 +55,7 @@ hr {
 #title {
 	font-size: 20px;
 	font-weight: bold;
-	
+	font-family: Cambria;	
 }
 
 #menu {
@@ -62,7 +65,7 @@ hr {
 	margin-top: 1%;
 	font-variant: small-caps;
 	font-weight: bold;
-	
+	font-family: Cambria;
 }
 	
 
