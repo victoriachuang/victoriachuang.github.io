@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <title>Victoria Chuang | Blog</title>
+  </head>
+  <body>
+    <div id="header">
+      <h3>Victoria Chuang</h3>
+    </div>
+
+    <table id="menu">
+      <td><a href="../index.html"><div>Home</div></a></td>
+      <td><a href="about-me.html"><div>About me</div></a></td>
+      <td><a href="projects.html"><div>Projects</div></a></td>
+      <td><a href="index.html"><div>Blog</div></a></td>
+      <td><a href="contact-me.html"><div>Contact me</div></a></td>
+    </table>
+
+    <div class="content">
+      <p class="title">Ruby Classes</p>
+      <p class="date">November 6th, 2014</p><hr>
+      <p>Every object in Ruby belongs to a certain class (for example, strings belong to the String class). Classes determine an object's functionality and how you can manipulate data, so they're a convenient way to create several objects that you want to have similar behaviors (ie. have the same methods).</p>
+
+<strong>Methods</strong>
+<p>Built-in classes, such as arrays, strings, and integers, come with methods that can be called on instances of those classes. For example, in <code>array1 = Array.new</code>, <code>array1</code> becomes a new instance of the array class and inherits all of its properties--therefore, you could call any array method on <code>array1</code>. You can also write your own instance and class methods, and even methods that only apply to one instance (singleton methods), to differentiate between objects and modify behavior.
+</p>
+
+<strong>Initializing class objects</strong>
+<p>Every class object is initialized with some certain properties. For example, if you were to make a new instance of class Car, you might initialize it with make, year, and color properties.</p>
+
+<p>
+<code>class Car<br>
+&nbsp;def initialize(make, year, color)<br>
+&nbsp;&nbsp;@make = make<br>
+&nbsp;&nbsp;@year = year<br>
+&nbsp;&nbsp;@color = color<br>
+&nbsp;end<br>
+end</code>
+</p>
+
+<p>Notice that I'm setting the parameters to their equivalent with an @ sign; this allows me to access the variable in other methods in the class!</p>
+
+      <p><a href="index.html#<--blog ID-->">Back</a></p>
+    </div>
+
+  </body>
+</html>
