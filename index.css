@@ -58,9 +58,8 @@ td {
 }
 
 #social-media {
-	width: 50%;
-	margin-left: 25%;
-	font-family: Cambria;
+	/*width: 50%;
+	margin-left: 10%;*/
 }
 
 blockquote {
@@ -69,4 +68,10 @@ blockquote {
 	text-align: center;
 	margin-left: 25%;
 	font-size: 20px;
+}
+
+#icon {
+	height: 80px;
+	width: 80px;
+	padding: 20px;
 }
