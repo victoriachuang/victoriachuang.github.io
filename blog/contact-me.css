@@ -1,81 +1,73 @@
 html {
+	background-color: #A9F0EA;
+	color: #4E4E4E;
 	font-size: 1.5em;
-	background-color: #F8ECDE;
-	color: #494546;
+	margin-bottom: 50px;
 }
 
 a:link {
-	color: #828E8C;
+	color: #4E4E4E;
 	text-decoration: none;
-	
 }
 
 a:hover {
-	color: #C5D0C1;
-	
+	color: #838383;
 }
 
 a:visited {
-	color: #E8866C;
-	
-}
-
-#header {
-	border: 4px dashed #C5D0C1;
-	border-radius: 10px;
-	width: 80%;
-	height: 100px;
-	text-align: center;
-	margin-left: 10%;
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-	/*font-family: Georgia;*/
-	font-size: 1.25em;
+	color: #4E4E4E;
 }
 
 .content {
+	background-color: white;
+	border: 3px dashed ;
+	border-radius: 5px;
+	color: #4E4E4E;
+	float: left;
+	font-family: 'Lato' sans-serif;
+	font-size: 16px;
+	height: auto;
+	margin-left: 20%;
+	margin-top: 1%;
+	padding: 1%;
 	position: relative;
-	  float: left;
-	  width: 78%;
-	  height: auto;
-	  margin-left: 10%;
-	  border-radius: 10px;
-	  border: 4px dashed #C5D0C1;
-	  padding: 1%;
-	  font-size: 16px;
-	  margin-top: 1%;
-	  color: 494546;
-	  font-family: Cambria;
+	width: 60%;
 }
 
-hr {
-	border-top: 4px dotted #E8866C;
-	
-}
-
-#title {
+.title {
 	font-size: 20px;
 	font-weight: bold;
-	font-family: Cambria;	
+	font-family: 'Lato', sans-serif;
 }
 
 #menu {
-	width: 75%;
-	margin-left: 12.5%;
+	width: 60%;
+	margin-left: 20%;
 	text-align: center;
 	margin-top: 1%;
-	font-variant: small-caps;
-	font-weight: bold;
-	font-family: Cambria;
+	/*font-weight: bold;*/
+	font-family: 'Lato', sans-serif;
 }
-	
+
+td {
+	width: 20%;
+}
+
+#css-box-model {
+	margin-left: 22%;
+}
 
 #social-media {
 	width: 50%;
 	margin-left: 25%;
-	
+	font-family: Cambria;
 }
 
-td {
-	width: 12.5%;
-	
+blockquote {
+	width: 50%;
+	font-style: italic;
+	text-align: center;
+	margin-left: 25%;
+	font-variant: small-caps;
+	font-size: 20px;
 }
