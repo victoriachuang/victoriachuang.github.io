@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <title>Victoria Chuang | Blog</title>
+  </head>
+  <body>
+    <div id="header">
+
+    </div>
+
+    <table id="menu">
+      <td><a href="../index.html"><div>Home</div></a></td>
+      <td><a href="../about-me.html"><div>About me</div></a></td>
+      <td><a href="../projects.html"><div>Projects</div></a></td>
+      <td><a href="index.html"><div>Blog</div></a></td>
+      <td><a href="../contact-me.html"><div>Contact me</div></a></td>
+    </table><br><br>
+
+    <div class="content">
+      <p class="title">SQL</p>
+      <p class="date">November 29th, 2014</p>
+      <p><strong>What is SQL and what is it used for?</strong></p>
+<p>SQL pronounced "sequel" stands for Structured Query Language. It is a standard interactive and programming language for getting information from and updating a database. SQL lets you access and manipulate databases.</p>
+<p><strong>Useful SQL commands:</strong></p>
+
+<p><code>SQL SELECT</code>:Selects data from one or more database tables.<br>
+Ex1:<br>
+<code>SELECT * FROM Table</code> <em>(will display all fields)</em><br>
+Ex2:<br>
+<code>SELECT ColumnName1, ColumnName2<br>
+FROM Table1</code> <em>(will display data from ColumnName1 and ColumnName2)</em></p>
+
+<p><code>SQL INSERT INTO</code>: insert new records into a SQL table.<br>
+Ex1:<br>
+<code>INSERT INTO table_name (column1,column2,column3,...)<br>
+VALUES (value1,value2,value3,...);</code> <em>(will insert values under corresponding columns)</em></p>
+
+<p><code>SQL WHERE</code>: displays data using a conditional statement. Is used with other commands such as SELECT, FROM, etc.<br>
+The conditional statements that can be used are: <, >, =,etc.<br>
+Ex1:<br>
+<code>SELECT column_name,column_name<br>
+FROM table_name<br>
+WHERE column_name operator value;</code></p>
+
+<p><code>SQL UPDATE</code>:updates data in the database table.<br>
+Ex1:<br>
+<code>UPDATE table_name<br>
+SET column=new_value<br>
+WHERE column=old_value;</code> <em>(will replace old_value with the new_value)</em></p>
+
+<p><code>SQL DELETE</code>: will delete data from the database table.<br>
+Ex1:<br>
+<code>DELETE FROM table_name<br>
+WHERE column=value;</code> <em>(will delete record at column=value; if <code>WHERE</code> isn't specified, all records will be deleted)</em></p>
+
+<p><code>SQL ORDER BY</code>:in what order to display a data set retrieved by a SQL SELECT statement.<br>
+Ex1:<br>
+<code>SELECT column_name<br>
+FROM table_name<br>
+ORDER BY column_name ASC|DESC;</code> <em>(ASC= ascending order;DESC=descending order)</em></p>
+
+<code>SQL LIKE</code>: used to search for a specific pattern in a column.<br>
+
+Ex1:<br>
+<code>SELECT column FROM table<br>
+WHERE record LIKE pattern;</code><br>
+
+Different patterns:<br>
+'%s' will find records that end with 's'<br>
+'s%' will find records that begin with 's'<br>
+'%s%' will find records that include 's'</p>
+      <p><a href="index.html#<--blog ID-->">Back</a></p>
+    </div>
+
+  </body>
+</html>
