@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='post.css'>
+</head>
+<body>
+  <p class='text'>A few months ago, my friend Jorge showed me his website, the design of which I wasn't particularly thrilled by. Something about the generic blue links, gradients, and dull color scheme just didn't speak to me.</p>
+  <div class='image_container'>
+    <a href='before_1.png' target='_blank'><img class='before' src='before_1.png'></a>
+    <a href='before_2.png' target='_blank'><img class='before' src='before_2.png'></a>
+    <a href='before_3.png' target='_blank'><img class='before' src='before_3.png'></a>
+  </div>
+  <p class='text'>So I took it upon myself to revamp his website!</p>
+
+  <p class='text'>Since Jorge had recently started working, my focus for this project was to make his website look cleaner and more professional.</p>
+
+  <p class='text'>I started clean, with a white background and black font, to focus on the formatting and visual structure.</p>
+
+  <p class='text'>My first step was to choose a more appropriate font. I noticed that the typeface of the headings were much more robust than that of the content, which looked unbalanced. I opted for serif fonts--sans serif fonts seemed a bit clinical and post-modern for Jorge's personality.</p>
+
+  <p class='text'>For the headers, I chose fonts that weren't too narrow or too thick; with the accents on Jorge's name, I didn't want to choose a font that was too busy. For the content, I chose Lora (available through Google Fonts)--it's clean and readable, and a bit on the wider side so it doesn't look to cramped when it's small.</p>
+
+  <p class='text'>For links, I decided to go gray with no text decoration--it's enough of a contrast to be noticeable, but not distracting. When you hover over the link, it's still the same blue as the original background--it's actually a really gorgeous color, but needs to be used sparingly.</p>
+
+  <div class='image_container'>
+    <center><a href='about_me.png' target='_blank'><img class='process' src='about_me.png'></a></center>
+  </div>
+
+  <p class='text'>I didn't think the about me page needed much structural revamping, so I spent most of my time reformatting the projects page.</p>
+
+  <p class='text'>My first instinct was to include a "feature" so that the user could easily navigate to the project they were interested in; otherwise, you would have to scroll through the whole page before knowing what all of the projects were. I made an unordered list of each project's title, with each title containing an href to the project's description (this was easily achieved by assigning each project an ID--thanks, Wikipedia source code!).</p>
+
+  <div class='image_container'>
+    <center><a href='project_list.png' target='_blank'><img class='process' src='project_list.png'></a></center>
+  </div>
+
+  <p class='text'>At first I kept the original formatting of the project list (a project title followed by the description in smaller text), but it looked very meh and list-like--not the most exciting thing to read. I decided to take this opportunity to learn how to use a CSS-formatted grid. I chose to use the Zurb Foundation grid--it seems to be more flexible and non-standard-issue than Bootstrap, and the documentation is simple and easy to follow.</p>
+
+  <div class='image_container'>
+    <center><a href='project_description_original.png' target='_blank'><img class='process' src='project_description_original.png'></a></center>
+  </div>
+
+  <p class='text'>The list of projects is contained inside a div that takes up 65% of the page width (it's an arbitrary number, but I think it's quite nice--not too spread out, not too cramped. Just right.). Within this div, Foundation provides a 12-column grid pattern. It took some adjusting, but I decided on dividing the columns so that the project's title takes up four columns, and the description eight. This seemed to scale well across each project description; they all looked robust but not cramped.</p>
+
+  <p class='text'>I decided to alternate between listing the project's title on the right and left of the page. As you scroll down the page, I felt that this pattern had a better visual flow, and read less like a list.</p>
+
+  <div class='image_container'>
+    <center><a href='project_description_foundation.png' target='_blank'><img class='process' src='project_description_foundation.png'></a></center>
+  </div>
+
+  <p class='text'>I also scaled down the size of the embedded video and image; it looks less overwhelming when surrounded by smaller text.</p>
+
+  <div class='image_container'>
+    <center><a href='project_video.png' target='_blank'><img class='process' src='project_video.png'></a></center>
+  </div>
+
+  <p class='text'>I recognize that the structure of the unordered list of projects at the top of the page leaves a lot of white space on the page. I tried playing around with different containers to structure them (including tables, divs, and Foundation Grid-formatted divs), but because the lengths of the titles varied so much, it was difficult to both eliminate the white space and maintain readability. I decided to opt for readability; in the event that a background image might be added to the page, I would prefer cleaner, more readable text.</p>
+
+  <p class='text'>I decided to keep all the text left-aligned and unjustified; it looks more organic has a better visual flow.</p>
+
+  <h4 class='text'>What I learned:</h4>
+
+  <ul class='text'>
+    <li>Because this code is going to be read and used by someone else, my priority was to keep my code very readable--which means proper indentation, alphabetized CSS, and no random class names.</li>
+    <li>Respect your client. Jorge has a background in Java, so he camelcases, while I prefer underscores. Because this is ultimately his property, I need to follow his preferred styling and naming conventions.</li>
+    <li>At the beginning of this project I wanted to use Sass as well; it seems relatively easy to learn and use, but because this is such a small project, a Sass file wolidn't read very differently from a CSS file.</li>
+    <li>I recently learned about CSS accessibility. It hadn't occurred to me before that there is a functional reason behind using certain structural elements, and as a habitual table abuser, I'm going to make a conscious effort to avoid misusing HTML elements in the future.</li>
+  </ul>
+
+</body>
+</html>

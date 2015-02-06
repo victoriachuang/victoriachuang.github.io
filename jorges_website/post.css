@@ -1,0 +1,29 @@
+/** {
+  outline: 1px solid black;
+}*/
+
+.before {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 30%;
+}
+
+.image_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.process {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.text {
+  /*font-family: "Lora", serif;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}

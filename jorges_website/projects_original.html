@@ -1,0 +1,140 @@
+<!--
+Design by Jorge Iv&aacute;n Mu&ntilde;oz
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Lora|Noto+Serif|Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+  <title>Jorge Mu&ntilde;oz CS</title>
+  <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <table id="navBar">
+    <tr>
+      <td class="topNavigationLink"><a href="index.html">Home</a></td>
+      <td class="topNavigationLink"><a href="projects.html">Projects</a></td>
+      <td class="topNavigationLink"><a href="resume.html">Resume</a></td>
+    </tr>
+  </table>
+  <br><br>
+  <table id='info'>
+    <tr>
+      <td id="name">Jorge Iv&aacute;n Mu&ntilde;oz</td>
+    </tr>
+    <tr>
+      <td id="school">University of California, Los Angeles</td>
+    </tr>
+  </table>
+  <br>
+  <div class="contentBox">
+    <h3 class="header">Projects</h3>
+    <h4 class='content'>Jump to:</h4>
+    <ul class='content'>
+      <li><a href='#artificialLife'>Artificial Life Project</a></li>
+      <li><a href='#visualModeling'>Visual Modeling Project</a></li>
+      <li><a href='#animation'>Animation Project</a></li>
+      <li><a href='#introGraphics'>Intro Graphics Project</a></li>
+      <li><a href='#computationalGenetics'>Computational Genetics Project Update</a></li>
+      <li><a href='#electromagnetism'>Electromagnetism physical simulation</a></li>
+      <li><a href='#spatial'>Spatial Dependence of Boundary Layers in Simulations of Rayleigh Benard Convection</a></li>
+      <li><a href='#beginning'>The Beginning of the End: Mass Loss from Dying Stars in the Galactic Bulge</a></li>
+    </ul>
+
+    <h4 class='header' id='artificialLife'>Artificial Life Project</h4>
+
+    <p class='content'>
+      Our artificial life group built a 2.5D biomechanical simulation of a salamander.  The simulation shows
+      our salamander as an articulated body that interacts with its environment to achieve various locomotive states.
+      The aim of the simulation was to implement a robust biomechanical model whose motion is comparable to the
+      aquatic and terrestrial locomotion to that of a real salamander. Our model uses a motor-based approach to
+      control the contraction and expansion of abstract muscles at the joints, as opposed to the traditional spring
+      based models, which allows for a higher level of control. Here is a link to the project page: <a href="275Project.html" target='_blank'>here</a>
+    </p><br>
+
+
+    <h4 class='header' id='visualModeling'>Visual Modeling Project</h4>
+
+    <p class='content'>
+      Our visual modeling group researched how to effectively create a 3D reconstruction from a 2D image.
+      Our results utilized a particle mesh formed by a mass-spring-damper
+      system to reconstruct objects from a 2D image. Our method is based on a pre-existing model that implements a rigid
+      spine with a deformable mesh that prefers axial symmetry. The model allows for user interaction during the 3D reconstruction simulation, by implementing seed points that pull the mesh using spring forces and applying on-the-fly springs. The aim of the simulation was to implement features that assist in avoiding local minima, as well as to implement a working 3D reconstruction model. Here is a link to the project page: <a href="269Project.html" target='_blank'>here</a>
+    </p><br>
+
+
+    <h4 class='header' id='animation'>Animation Project</h4>
+
+    <p class='content'>
+      Our animation group researched how to effectively simulate cloth using a particle mesh formed by a mass-spring-damper
+      system. Our method uses a thoroughly connected spring system and we chose to simulate physical forces on the environment as well.
+      the physical forces that were implemented include: gravity, wind, and friction. Here is a link to the project page: <a href="274AProject.html">here</a>
+    </p><br>
+
+
+    <h4 class='header' id='introGraphics'>Intro Graphics Project</h4>
+
+    <p class='content'>
+      I created a mini animation of a popular game: League of Legends using OpenGL and C++. The animation
+      dispplays the 2 characters interacting while changing the modelview matrix and camera matrix
+      through the world. I coded different shaders, added textures to shapes, and created my own shape (stars)
+      using vertices and surface normals.
+      <br><br>
+      <center><iframe width="417" height="267" src="https://www.youtube.com/embed/Ydta882bXtY" frameborder="0" allowfullscreen></iframe></center><br>
+    </p class='content'>
+
+
+    <h4 class='header' id='computationalGenetics'>Computational Genetics Project Update</h4>
+
+    <p class='content'>
+      I focused on implementing a genome generator which included the following mutations:
+      Single nuclotide polymorphism, Insertions and Deletions, Copy numbers, Inversions,
+      Short tandem repeats, and ALUs. Developed an F1-based scoring method for each category.
+      My scripts were implemented through a website for grading the accuracy and efficiency
+      of the undergraduate computational genetics class. The full website is located
+      <a href="https://cm124.herokuapp.com/" target='_blank'>here</a>
+
+    </p><br>
+
+    <h4 class='header' id='electromagnetism'>Electromagnetism physical simulation</h4>
+
+    <p class='content'>
+      Designed and constructed a model for a physics simulation-based java application.
+      I coded the base model and physics engine for the video game in order to facilitate the
+      implementation of multiple game stages. The game uses a projectile motion to begin the trajectory of the particle.
+      There are multiple forces that can be implemented: Gravitational, Electric, and magnetic forces. The
+      game allows for the user to use a charge to move the particle around by simulation Coulomb's Law.
+      The obstacles have a health level that can be depleted by knocking into the object at high velocities.
+      Runs in windows and needs updated Java, download the jar file <a href="BallGameAW.jar" target="_blank">here!</a>
+    </p>
+    <center><img src="MyBallGame.png" width="417" height="267"></center><br>
+
+    <h4 class='header' id='spatial'>Spatial Dependence of Boundary Layers in Simulations of Rayleigh Benard Convection</h4>
+
+    <p class='content'>
+      Produced and modified existing Matlab programs to perform a thorough data analysis on boundary layers in Rayleigh-Bernard cells.
+      Previous version had 30% width bands at 3 specified locations. My analysis was of 1% bands specified at 12 locations, allowing
+      for a more detailed examination of the behaviors found in Rayleigh Bernard cells. Presented at 65th Annual Meeting of the APS
+      Division of Fluid Dynamics Volume 57, Number 17 : Spatial dependence of boundary layers in simulations of Rayleigh-Benard
+      convection- Janet Scheel, Jorge Munoz. <a href="https://meeting.aps.org/Meeting/DFD12/Event/176814" target='_blank'> Abstract here!</a>
+    </p><br>
+
+    <h4 class='header' id='beginning'>The Beginning of the End: Mass Loss from Dying Stars in the Galactic Bulge</h4>
+
+    <p class='content'>
+      Generated a thorough library of models using the stellar atmospheric models MARCS with the radiative transfer code DUSTY.
+      Created a program to perform analysis on photometry using band correcting methods and methods of least reduced chi-squared,
+      using a series of Fortran, Perl and Python scripts. Extensive debugging and testing of code implementation, computational and physical.
+      Presented at Science Highlights from NASA's Astrophysics Data Analysis Program I: Galactic Astrophysics: The Beginning of the End: Mass
+      Loss from Dying Stars in the Galactic Bulge- R. Sahai, J.I. Munoz,  S. Uttenthaler, M. Morris--find the abstract<a href="http://adsabs.harvard.edu/abs/2013AAS...22111603S"> here!</a>
+      My physics honors thesis can be found <a href="RGBMassloss.html" target='_blank'>here!</a>
+    </p>
+    <br>
+
+  </div>
+  <div id="footer">Web Development by Jorge Iv&aacute;n Mu&ntilde;oz</div>
+</body>
+</html>

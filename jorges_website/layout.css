@@ -1,0 +1,72 @@
+/*Victoria is the best*/
+
+a {
+  color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.centered {
+  text-align: center;
+  padding: 10px;
+}
+
+.content {
+  font-family: "Lora", serif;
+}
+
+.contentBox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+#footer {
+  font-family: "Lora", serif;
+  font-size: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header {
+  font-family: "Merriweather", serif;
+  font-size: 1.5em;
+}
+
+#info {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+}
+
+#name {
+  font-family: "Noto Serif", serif;
+  font-size: 1.5em;
+}
+
+#navBar {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.projectTitle {
+  font-family: "Merriweather", serif;
+  font-size: 1.5em;
+}
+
+#school {
+  font-family: "Lora", serif;
+}
+
+.topNavigationLink {
+  width: 30%;
+}
