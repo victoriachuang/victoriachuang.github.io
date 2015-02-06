@@ -20,11 +20,11 @@ a:visited {
 
 .content {
 	background-color: white;
-	border: 3px dashed ;
+	border: 2px dashed;
 	border-radius: 10px;
 	color: #4E4E4E;
 	float: left;
-	font-family: 'Lato' sans-serif;
+	font-family: 'Lora' sans-serif;
 	font-size: 16px;
 	height: auto;
 	margin-left: 20%;
@@ -37,7 +37,7 @@ a:visited {
 .title {
 	font-size: 20px;
 	font-weight: bold;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Bitter', serif;
 }
 
 #menu {
@@ -46,7 +46,7 @@ a:visited {
 	text-align: center;
 	margin-top: 1%;
 	font-weight: bold;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Bitter', serif;
 }
 
 td {
