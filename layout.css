@@ -1,0 +1,61 @@
+a:link {
+	color: gray;
+}
+
+a:visited {
+	color: gray;
+}
+
+.content-wrapper {
+	font-family: 'Lora', serif;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	width: 65%;
+}
+
+.header {
+	font-family: 'Lora', serif;
+}
+
+.more-coming {
+	font-family: 'Source Code Pro';
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.nav-bar {
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.nav-option {
+	background-color: white;
+	font-family: 'Merriweather', serif;
+	font-size: 1.75em;
+	height: 325px;
+	line-height: 325px;
+	text-align: center;
+}
+
+.nav-wrapper {
+	margin-top: 10%;
+}
+
+.project-title {
+	text-align: center;
+}
+
+#restructuring {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+}
+
+#typeface {
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+}
