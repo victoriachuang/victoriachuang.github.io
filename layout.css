@@ -6,7 +6,12 @@ a:visited {
 	color: gray;
 }
 
+.center {
+	text-align: center;
+}
+
 .connect {
+	color: gray;
 	font-family: 'Lobster', cursive;
 	font-size: 3em;
 	text-align: center;
@@ -38,6 +43,11 @@ a:visited {
 	font-family: 'Lora', serif;
 }
 
+.image_holder {
+	list-style-type: none;
+	text-align: center;
+}
+
 .more-coming {
 	font-family: 'Source Code Pro';
 	font-size: 1.5em;
@@ -66,8 +76,11 @@ a:visited {
 	margin-top: 5%;
 }
 
-.output {
-	color: "#FF66FF";
+.profile_pic {
+	border-radius: 50%;
+	display: inline;
+	height: 200px;
+	width: 200px;
 }
 
 .project-title {
