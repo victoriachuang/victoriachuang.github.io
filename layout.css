@@ -55,8 +55,17 @@ a:visited {
 	margin-top: 5%;
 }
 
+.output {
+	color: "#FF66FF";
+}
+
 .project-title {
 	text-align: center;
+}
+
+#rapsum {
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
 }
 
 #restructuring {
