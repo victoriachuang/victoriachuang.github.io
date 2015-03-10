@@ -6,6 +6,17 @@ a:visited {
 	color: gray;
 }
 
+.connect {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	text-align: center;
+}
+
+.contact {
+	height: 150px;
+	width: 150px;
+}
+
 .content-wrapper {
 	font-family: 'Lora', serif;
 	margin-left: auto;
