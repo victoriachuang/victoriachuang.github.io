@@ -1,2 +1,2 @@
-victoriachuang.github.io
+Hi guise, I'm Victoria :)
 ========================
