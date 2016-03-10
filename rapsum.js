@@ -81,6 +81,10 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "Back it up, drop it down",
 "Damn it feels good to be a gangsta",
 "Baby I got your money don't you worry",
+"I got enemies, got a lotta enemies",
+"I got anemones, got a lotta anemones",
+"Gun in my purse, bitch I came dressed to kill",
+"We want prenup",
 "Mustard on the beat, ho"];
 
 var selection = [];
