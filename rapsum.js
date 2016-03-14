@@ -85,7 +85,10 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "I got anemones, got a lotta anemones",
 "Gun in my purse, bitch I came dressed to kill",
 "We want prenup",
-"Mustard on the beat, ho"];
+"Mustard on the beat, ho",
+"Get low, scrub the ground",
+"Push it up, push it up",
+"And when I was five, my favorite movie was the Gremlins. Ain't got shit to do with this, but I just thought that I should mention"];
 
 var selection = [];
 for (i = 0; i < 20; i++) {
