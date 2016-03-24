@@ -90,7 +90,7 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "Push it up, push it up",
 "And when I was five, my favorite movie was the Gremlins. Ain't got shit to do with this, but I just thought that I should mention"];
 
-var selection = ["Young Money Democrat"];
+var selection = [];
 for (i = 0; i < 20; i++) {
 	selection.push(lyrics[Math.floor(Math.random() * lyrics.length)]);
 }
