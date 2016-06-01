@@ -88,7 +88,19 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "Mustard on the beat, ho",
 "Get low, scrub the ground",
 "Push it up, push it up",
-"And when I was five, my favorite movie was the Gremlins. Ain't got shit to do with this, but I just thought that I should mention"];
+"And when I was five, my favorite movie was the Gremlins. Ain't got shit to do with this, but I just thought that I should mention",
+"It goes down in the DM",
+"So I hit her in the DM",
+"Oh, my DM poppin",
+"Don't you hate when you get screenshotted",
+"Money don't fold if it act right",
+"I'm going, going back, back to the Bay",
+"In the club got them bottles on replay",
+"Tryna break a record like a DJ",
+"I give that bitch some act right",
+"That's a hunnid fifty bottles in one night",
+"Going, going back, bank to the bank",
+"I'm in the Fendi store, I don't need help"];
 
 var selection = [];
 for (i = 0; i < 20; i++) {
