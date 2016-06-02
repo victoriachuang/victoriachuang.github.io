@@ -99,7 +99,7 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "Tryna break a record like a DJ",
 "I give that bitch some act right",
 "That's a hunnid fifty bottles in one night",
-"Going, going back, bank to the bank",
+"Going, going back, back to the bank",
 "I'm in the Fendi store, I don't need help"];
 
 var selection = [];
