@@ -100,7 +100,9 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "I give that bitch some act right",
 "That's a hunnid fifty bottles in one night",
 "Going, going back, back to the bank",
-"I'm in the Fendi store, I don't need help"];
+"I'm in the Fendi store, I don't need help",
+"Panda",
+"Panda panda panda panda"];
 
 var selection = [];
 for (i = 0; i < 20; i++) {
