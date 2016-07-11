@@ -102,7 +102,9 @@ var lyrics = ["Bunnies wantin to be fed, I mean hunnies oh forget it",
 "Going, going back, back to the bank",
 "I'm in the Fendi store, I don't need help",
 "Panda",
-"Panda panda panda panda"];
+"Panda panda panda panda",
+"How you like your eggs, fried or fertilized",
+"Lemme smang it, girl"];
 
 var selection = [];
 for (i = 0; i < 20; i++) {
